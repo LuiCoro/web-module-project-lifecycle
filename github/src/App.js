@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import axios from 'axios';
 
+import GitCard from './Components/GitCard'
+
 class App extends Component {
   render() {
   
@@ -19,6 +21,7 @@ class App extends Component {
     return (
       <div>
         <h1>Hello World</h1>
+        <GitCard />
       </div>
     )
   }
